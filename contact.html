@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL ABOUDI GmbH | Kontakt</title>
+    <meta name="description" content="Wir bieten Ihnen unsere Manpower vom Abbruch bis zum Umbau, von der Verkleidung bis zur Tapete für Wände.">
+    <meta name="keywords" content="Malerarbeiten, Sanierung, Renovierung, Nordrhein Westfalen, Gelsenkirchen, Wiehagen">
+    <link rel="apple-touch-icon" href="img/Lampe.png">
+    <link rel="icon" type="image/png" href="img/Lampe.png"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8WE2245T6"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-V8WE2245T6');
+    </script>
+</head>
+<body>
+        <nav>
+            <div class="nav_container">
+                <a href="/" class="nav_logo">
+                    <h2>AL</h2><img id = "logo-icon" src="img/Lampe.png" alt="Lamp icon"><h2>ABOUDI</h2><p>GmbH</p>
+                </a>
+                <div class="nav_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav_links">
+                    <li class="nav_link">
+                        <a class="nav_link-item" href="/">Home</a>
+                    </li>
+                    <li class="nav_link">
+                        <a class="nav_link-item" href="/team.html">Team</a>
+                    </li>
+                    <li class="nav_link">
+                        <a class="nav_link-item" href="/service.html">Dienstleistungen</a>
+                    </li>
+                    <li class="nav_link">
+                        <a class="nav_link-item" href="/gallery.html">Galerie</a>
+                    </li>
+                    <li class="nav_link">
+                        <button class="nav_link-item click" id="contact_anchor" ><a  href="/contact.html">Kontakt</a></button>
+                    </li>
+                </ul>
+        </nav>
+        <section class="header">
+            <h1>Kontaktiere uns</h1>
+        </section>
+        <section class="contact_cards">
+            <div class="contact_card">
+                <img src="img/mail.svg" alt="">
+                <h2>Senden Sie uns eine Email.</h2>
+                <a href="mailto:info@sraa-ge.de">mailen Sie uns</a>
+            </div>
+            <div class="contact_card">
+                <img src="img/phone.svg" alt="">
+                <h2>Sprechen Sie uns telefonisch an.</h2>
+                <a href="tel:+4920997296600">ruf uns an</a>
+            </div>
+            <div class="contact_card">
+                <img src="img/facebook.svg" alt="">
+                <h2>Folgen Sie uns in den sozialen Medien.</h2>
+                <a href="https://de-de.facebook.com/sraa.gelsenkirchen/" target="_blank">Facebook</a>
+            </div>
+        </section>
+        <section class="address_info">
+            <div id="map"></div>
+            <div class="address_text">
+                <h3>Al Aboudi GmbH</h3>
+                <p>Wiehagen 34</p>
+                <p>D-45879 Gelsenkirchen</p>
+                <br>
+                <p>Telefon: 0209 97 29 6600</p>
+                <p>Telefax: 0209 97 29 6601</p>  
+                <a href="mailto:info@sraa-ge.de"> E-Mail: info@sraa-ge.de </a>
+            </div>
+        </section>
+        <footer class="footer">
+            <ul class="footer_links">
+                <li class="footer_link">
+                    <a class="footer_link-item" href="/">Home</a>
+                </li>
+                <li class="footer_link">
+                    <a class="footer_link-item" href="/team.html">Team</a>
+                </li>
+                <li class="footer_link">
+                    <a class="footer_link-item" href="/service.html">Dienstleistungen</a>
+                </li>
+                <li class="footer_link">
+                    <a class="footer_link-item" href="/gallery.html">Galerie</a>
+                </li>
+                <li class="footer_link">
+                    <a class="footer_link-item" href="/contact.html">Kontakt</a>
+                </li>
+                <li class="footer_link">
+                    <a class="footer_link-item" href="https://de-de.facebook.com/sraa.gelsenkirchen/" target="_blank" ><i class="fab fa-facebook-square"></i></a>
+                </li>
+            </ul>
+            <h2 class="footer_name">AL ABOUDI GMBH</h2>
+            <p>website designed by Ziyad Salem</p>
+            <div class="attribution">
+                <a href="http://www.freepik.com">Icons designed by Freepik</a>
+            </div>
+        </footer>
+        <script src ="action.js"></script>
+        <script>
+                
+                var center = [51.50294267378733, 7.099891016501085];
+                var map = L.map('map').setView(center, 16);
+
+		
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(map);
+                L.marker(center).addTo(map)
+				.bindPopup('<a href="https://www.google.com/maps/place/Al-Aboudi+GmbH/@51.5029179,7.0977057,17z/data=!3m1!4b1!4m5!3m4!1s0x47b8e74675bd41ff:0x77a91c2d2b52daae!8m2!3d51.5028865!4d7.0999246">Al Aboudi GmbH</a>')
+				.openPopup();
+        </script>
+
+    </body>
+    </html>
