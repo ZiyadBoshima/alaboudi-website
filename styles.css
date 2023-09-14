@@ -472,17 +472,12 @@ footer p{
         opacity: 1;
         transition: all 0.5s ease;
         height: auto;
-        min-height: min-content;
-        max-height: max-content;
         z-index: -1;
         padding:25px 0;
         background: #fff;
         border-bottom: #000000 4px solid;
     }
     .nav_links.active {
-        height: auto;
-        min-height: min-content;
-        max-height: max-content;
         top:70px;
         opacity: 1;
         transition: all 0.5s ease;
