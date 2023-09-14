@@ -477,7 +477,7 @@ footer p{
         border-bottom: #000000 4px solid;
     }
     .nav_links.active {
-        top:70px;
+        top: 60px;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 10;
