@@ -478,6 +478,7 @@ footer p{
         border-bottom: #000000 4px solid;
     }
     .nav_links.active {
+        height: fit-content;
         top:70px;
         opacity: 1;
         transition: all 0.5s ease;
@@ -529,7 +530,6 @@ footer p{
         width: 80%;
     }
     
-
     .service_container h1{
         -webkit-text-stroke-width: 1.5px;
         font-size: 1.5rem;
