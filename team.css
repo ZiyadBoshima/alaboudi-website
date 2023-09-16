@@ -1,46 +1,49 @@
-
-.hero{
+.hero {
     padding: 50px 0;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.team_img{
+
+.team_img {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     width: 50%;
 }
-.team_img img{
+
+.team_img img {
     width:100%;
     height: 100%;
 }
 
-.team{
+.team {
     width: 100%;
     padding: 5%;
     background: #EEFEE9;
 }
-.team_text{
+
+.team_text {
     margin: 0 auto;
     width: 80%;
 }
-.team_text h2{
+
+.team_text h2 {
     font-size: 4rem;
 }
 
-.team_text p{
+.team_text p {
     font-size: 1.5rem;
     margin: 1rem;
 }
 
-.moto{
+.moto {
     font-weight: bold;
 }
 
-.service_text{
+.service_text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,7 +52,7 @@
     font-size: 2.5rem;
 }
 
-.service_text a{
+.service_text a {
     margin: 20px;
     background: #C2D2FF;
     padding: 10px 40px;
@@ -57,16 +60,13 @@
     color:black;
 }
 
+@media screen  and (max-width: 960px) {
 
-@media screen  and (max-width: 960px){
-
-    .hero{
+    .hero {
         padding: 20px 0;
-       
     }
     
-    
-    .team_text{
+    .team_text {
         
         -moz-hyphens: auto;
         -webkit-hyphens: auto;
@@ -74,29 +74,23 @@
         text-align: justify;
         text-justify: distribute;
     }
-    .team_text h2{
+    
+    .team_text h2 {
         font-size: 2rem;
     }
     
-    .team_text p{
+    .team_text p {
         font-size: 0.75rem;
         margin: 1rem;
     }
     
-    .service_text{
-       
+    .service_text {
         height:20vh;
         font-size: 1rem;
     }
 
-    
-    .service_text a{
+    .service_text a {
         font-size: 0.75rem;
         margin: 10px;
-        
     }
-    
-
-
-
 }

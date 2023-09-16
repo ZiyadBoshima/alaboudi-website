@@ -1,4 +1,3 @@
-
 window.addEventListener('scroll', ()=>{
     var reveals = document.querySelectorAll('.reveal');
     for(var i=0; i<reveals.length; i++){
@@ -11,7 +10,6 @@ window.addEventListener('scroll', ()=>{
         }
     }
 });
-
 
 const menu = document.querySelector("#mobile-menu");
 const menuLinks = document.querySelector(".nav_links");
