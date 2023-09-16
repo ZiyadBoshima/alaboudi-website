@@ -303,6 +303,7 @@ footer p {
         width: 100%;
         padding: 0;
     }
+    
     .nav_logo {
         margin-right:0 ;
         margin-left:4px;
@@ -334,10 +335,12 @@ footer p {
         padding: 20px 0;
         background: #fff;
         border-bottom: #000000 4px solid;
+        border-top: #000000 4px solid;
+
     }
 
     .nav_links.active  {
-        top: 60px;
+        top: 55px;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 10;
