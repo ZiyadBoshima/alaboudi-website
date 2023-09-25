@@ -9,6 +9,9 @@
 }
 
 .carousel_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding: 50px;
     height: 800px;
     background: #EEFEE9;
@@ -53,15 +56,15 @@
 
 .mySwiper2 {
     border:black 3px solid;
-    margin:20px;
-    height: 70%;
+    margin-bottom: 20px;
+    height: 80%;
     width: 80%;
 }
 
 .mySwiper {
     border:black 3px solid;
     width:80% ;
-    height: 20%;
+    height: 15%;
     box-sizing: border-box;
     padding: 10px 0;
 }
