@@ -32,7 +32,6 @@ body a {
     align-items: center;
 }
 
-
 .nav_logo {
     display: flex;
     flex:1.5;
@@ -271,7 +270,6 @@ footer p {
     margin: 50px;
     text-align: center;
     color: #fff;
-    font-family: 'Libre Barcode 39 Text', cursive;
     font-size: 5rem;
     font-weight: 400;
 }

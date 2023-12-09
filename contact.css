@@ -91,50 +91,6 @@
     height: 500px;
 }
 
-.footer {
-    background: var(--primary);
-    padding:10px 0;
-}
-
-.footer_links {
-    width: 80%;
-    margin: 20px auto 40px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-.footer_link {
-    list-style: none;
-}
-
-.footer_link-item {
-    color: #fff;
-    font-size: 1.5rem;
-}
-
-.footer_name {
-    margin: 50px;
-    text-align: center;
-    color: #fff;
-    font-family: 'Libre Barcode 39 Text', cursive;
-    font-size: 5rem;
-    font-weight: 400;
-}
-
-.fa-facebook-square {
-    font-size: 2.2rem;
-    
-}
-
-.attribution {
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    font-size: 0.5rem;
-}
-
 @media screen and (max-width: 960px){
 
     .header {
@@ -177,43 +133,5 @@
         width: 90%;
         height: 300px;
         margin: 10px
-    }
-
-    .footer {
-        background: var(--primary);
-        padding:10px 0;
-    }
-
-    .footer_links {
-        width: 100%;
-        margin: 20px 5px 40px 5px;
-        padding-bottom: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-
-    .footer_link {
-        margin: 6px;
-        list-style: none;
-    }
-
-    .footer_link-item {
-        color: #fff;
-        font-size: 0.8rem;
-    }
-
-    .footer_name {
-        margin: 20px;
-        text-align: center;
-        color: #fff;
-        font-family: 'Libre Barcode 39 Text', cursive;
-        font-size: 2.5rem;
-        font-weight: 400;
-    }
-
-    .fa-facebook-square {
-        font-size: 1.5rem;   
     }
 }
