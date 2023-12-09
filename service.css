@@ -34,7 +34,7 @@ body a {
 
 .nav_logo {
     display: flex;
-    flex:1.5;
+    flex: 1.5;
     align-items: baseline;
     margin-right: 5%;
     font-size: 2.5rem; 
@@ -150,7 +150,6 @@ section {
     height: fit-content;
     width: 100vw;
     padding:10vh 10vw;
-    
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -295,16 +294,14 @@ footer p {
 @media screen  and (max-width: 960px) {
     
     .nav_container {
-        margin: 0 auto;
-        align-items: center;
         width: 100%;
         padding: 0;
     }
     
     .nav_logo {
-        margin-right:0 ;
-        margin-left:4px;
-        flex:2;
+        margin-right: 0;
+        margin-left: 4px;
+        flex: 2;
         font-size: 1.3rem;
     }
 
@@ -314,14 +311,10 @@ footer p {
 
     #logo-icon {
         width: 30px;
-        height: 100%;
     }
 
     .nav_links {
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        margin: 0;
         width: 100%;
         position: absolute;
         top:-1000px;
@@ -382,13 +375,10 @@ footer p {
     .header_content {
         padding: 20px;
         width: 100%;
-        display: flex;
         flex-direction: column;
-        justify-content: center;
         -moz-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
-        text-align: center;
         text-justify: distribute;
     }
 
@@ -401,7 +391,6 @@ footer p {
     }
     
     .header_content h1 {
-        align-self: flex-start;
         font-size: 1.25rem;
     }
   
@@ -433,19 +422,11 @@ footer p {
       
 
     .text h1 {
-        margin: 20px auto;
         font-size: 1rem;
-        -moz-hyphens: auto;
-        -webkit-hyphens: auto;
-        hyphens: auto;
-        text-align: justify;
-        text-justify: distribute;
     }
     
     .text ul {
         font-size: 0.85rem;
-        padding-left: 60px;
-        margin-bottom: 30px;
     }
     
     .contact_info {
@@ -470,29 +451,24 @@ footer p {
         width: 100%;
         margin: 20px 5px 40px 5px;
         padding-bottom: 5px;
-        display: flex;
         justify-content: center;
-        align-items: center;
-        
     }
 
     .footer_link {
         margin: 6px;
-        list-style: none;
     }
 
     .footer_link-item {
-        color: #fff;
         font-size: 0.8rem;
     }
 
     .footer_name {
         margin: 20px;
-        text-align: center;
-        color: #fff;
-        font-family: 'Libre Barcode 39 Text', cursive;
         font-size: 2.5rem;
-        font-weight: 400;
+    }
+
+    .fa-facebook-square {
+        font-size: 1.5rem;
     }
 
     .fa-facebook-square {
