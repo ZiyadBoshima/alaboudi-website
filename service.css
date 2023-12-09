@@ -471,7 +471,8 @@ footer p {
         font-size: 1.5rem;
     }
 
-    .fa-facebook-square {
-        font-size: 1.5rem;
+    .attribution {
+        margin-top: 10px;
+        font-size: 0.1rem;
     }
 }
