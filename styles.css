@@ -34,7 +34,7 @@ body a {
 
 .nav_logo {
     display: flex;
-    flex:1.5;
+    flex: 1.5;
     align-items: baseline;
     margin-right: 5%;
     font-size: 2.5rem; 
@@ -51,11 +51,11 @@ body a {
 }
 
 .nav_links {
+    display: flex;
     flex: 2;
     width: 50%;
     height: 50px;
     margin: 0;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -225,7 +225,7 @@ body a {
 
 .about_img {
     width: 42%;
-    height:auto;
+    height: auto;
 }
 
 .about_img img {
@@ -254,7 +254,7 @@ body a {
 
 .cards_container {
     display: flex;
-    width:100%;
+    width: 100%;
     height: auto;
     position: relative;
 }
@@ -288,7 +288,7 @@ body a {
 .card {
     background: #fff;
     border: black 4px solid;
-    max-width:427px ;
+    max-width: 427px;
     width: 25vw;
     height: 500px;
     padding: 20px;
@@ -314,7 +314,7 @@ body a {
 
 .card_inner img {
     margin: 0 auto;
-    width:100%;
+    width: 100%;
     height: auto;
 }
 
@@ -324,7 +324,7 @@ body a {
 
 .read_more {
     margin: 0 auto;
-    width:fit-content;
+    width: fit-content;
     color: #fff;
     background: var(--accent);
     padding: 5px 10px;
@@ -442,16 +442,13 @@ footer p {
 @media screen  and (max-width: 960px){
 
     .nav_container {
-        margin: 0 auto;
-        align-items: center;
-        width: 100%;
         padding: 0;
     }
 
     .nav_logo {
-        margin-right:0 ;
-        margin-left:4px;
-        flex:2;
+        margin-right: 0;
+        margin-left: 4px;
+        flex: 2;
         font-size: 1.3rem;
     }
 
@@ -461,17 +458,13 @@ footer p {
 
     #logo-icon {
         width: 30px;
-        height: 100%;
     }
 
     .nav_links {
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        margin: 0;
         width: 100%;
         position: absolute;
-        top:-1000px;
+        top: -1000px;
         opacity: 1;
         transition: all 0.5s ease;
         height: auto;
@@ -521,9 +514,7 @@ footer p {
     }
         
     .service {
-        width: 100%;
         padding: 4px;
-        margin: 0 auto;
     }
 
     .service_container {
@@ -551,23 +542,14 @@ footer p {
     }
     
     .about_content {
-        margin: 0 auto;
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        
+        flex-direction: column-reverse;   
     }
 
     .about_text {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        -moz-hyphens: auto;
-        -webkit-hyphens: auto;
-        hyphens: auto;
         text-align: justify;
-        text-justify: distribute;
         height: fit-content;
         padding: 0 4px;
         font-size: 0.9rem;
@@ -577,7 +559,6 @@ footer p {
     
     .about_img {
         width: 100%;
-        height:auto;
     }
 
     .learn_more {
@@ -586,16 +567,9 @@ footer p {
     }
 
     #about_tile {
-        position: absolute;
         width: 100px;
-        right: 0;
-        bottom: 1px;
     }
     
-    .cards_container{
-        width:100%;
-    }
-
     #tile1 {
         width: 100px;
     }
@@ -611,61 +585,23 @@ footer p {
 
     .cards_wrapper {
         width: 100%;
-        display: flex;
-        margin: 0 auto;
         flex-direction: column;
         align-items: center;
         padding: 40px 0;
-        z-index: 1;
     }
 
     .card {
-        background: #fff;
-        border: black 4px solid;
-        max-width:427px ;
         width: 85%;
         height: 420px;
-        padding: 20px;
         margin: 20px 0;
-        box-sizing: border-box;
         box-shadow: 12px 12px 2px 1px rgba(26, 85, 50, 0.315);
     }
 
     .card_inner {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        padding: 20px 5px;
-        border: 4px #000 dashed;
-        width: 100%;
-        height: 100%;
         font-size: 1.1rem;
-        -moz-hyphens: auto;
-        -webkit-hyphens: auto;
-        hyphens: auto;
-        text-align: center;
     }
-
-    .card_inner img {
-        width:100%;
-        height: auto;
-    }
-
-    .card_inner p {
-        flex: 2;
-    }
-
-    .read_more {
-        margin: 0 auto;
-        width:fit-content;
-        color: #fff;
-        padding: 5px 10px;
-    }
-
 
     .contact {
-        position: relative;
-        background: #C4C4C4;
         width: 100%;
         padding: 30px 5px;
         display: flex;
@@ -675,47 +611,21 @@ footer p {
     }
 
     .contact_header {
-        background: #fff;
-        text-align: center;
-        margin: 0 auto;
         width:100%;
-        margin:0;
-        padding:5px;
-        border: black 4px solid;
     }
 
     .contact_header_inner {
-        border: 4px dashed #000000;
-        color:var(--primary);
         font-size: 1rem;
     }
 
     .contact_info {
-        position: relative;
-        margin: 0 auto;
         padding: 20px;
-        background: #fff;
-        border: 2px #000000 solid;
         width:100%;
-        color: #000;
-        text-align: center;
         font-size: 1rem;
-    }
-
-    .contact_info a {
-        color: #000;
     }
 
     #mail-img {
         width:80px;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-
-    .footer {
-        background: var(--primary);
-        padding:10px 0;
     }
 
     footer p {
@@ -726,33 +636,24 @@ footer p {
         width: 100%;
         margin: 20px 5px 40px 5px;
         padding-bottom: 5px;
-        display: flex;
         justify-content: center;
-        align-items: center;
     }
 
     .footer_link {
         margin: 6px;
-        list-style: none;
     }
 
     .footer_link-item {
-        color: #fff;
         font-size: 0.8rem;
     }
 
     .footer_name {
         margin: 20px;
-        text-align: center;
-        color: #fff;
-        font-family: 'Libre Barcode 39 Text', cursive;
         font-size: 2.5rem;
-        font-weight: 400;
     }
 
     .fa-facebook-square {
         font-size: 1.5rem;
-        
     }
 
     .attribution {
