@@ -273,6 +273,20 @@ footer p {
     font-weight: 400;
 }
 
+.legal_links {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 2px
+}
+
+.legal_link {
+    color: white;
+
+}
+
+
 .fa-facebook-square {
     font-size: 2.2rem;
     
