@@ -1,14 +1,21 @@
-
 .content {
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: fit-content;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  min-height: calc(100vh - (377px));
 }
 
 .header {
-    width: 100%;
-    text-align: left;
-    margin-bottom: 25px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 20px;
+    min-height: calc(100vh - 279px);
+  }
 }
